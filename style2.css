@@ -1,0 +1,50 @@
+/* Add background color and text color to the body */
+body {
+    background-color: #ff69b4;
+    color: white;
+  }
+  
+  /* Add a background image to the page */
+  body {
+    background-image: url("https://cdn.pixabay.com/photo/2019/01/29/22/05/bicycle-3964051_960_720.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  /* Style the <h1> text */
+  h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 3em;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px #a0522d;
+  }
+  
+  /* Style the <p> tags */
+  p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    padding: 0 20px;
+    text-align: justify;
+  }
+  
+  /* Style the <a> tag */
+  a {
+    display: block;
+    text-align: center;
+    background-color: #800000;
+    color: white;
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 30%;
+    margin: 20px auto;
+  }
+  
+  /* Change the background color and add some padding to the <a> tag on hover */
+  a:hover {
+    background-color: #b22222;
+    padding: 15px;
+    cursor: pointer;
+  }
